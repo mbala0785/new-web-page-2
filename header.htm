@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>My Header</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+ background-color:hsl(30,100%,25%);
+}
+#header {
+background-color:rgb(200,200,200);
+color:red;
+padding:50px;
+font-size:35px;
+text-align:center;
+}
+.image{
+float:left;
+padding:50px;
+height:5px;
+width:5px;
+}
+li{
+float:right;
+padding:50px;
+font-size:25px;
+}
+table th,td{
+border:1px solid white;
+width:35%;
+color:hsl(40 100% 100%);
+
+}
+
+table{
+boder-collapse:collapse;width:100%;
+}
+th{
+height:50%;
+}
+.clearfix::after{
+content:"";
+clear:both;
+display:table;
+}
+.img{
+float:left;
+width:33.33%;
+padding:5px;
+ 
+}
+p{
+text-align:left;
+font-size:20px;
+color:red;
+}
+
+
+</style>
+</head>
+</header>
+<div class="image">
+<img src="html file/alpha.jpg" width="70px" height="50px" alt="alpha" >
+</div>
+<ul>
+<li><a href="#Menu">Menu</a></li>
+<li><a href="#Main">Main</a></li>
+</ul>
+<h1 id="header">My Header</h1>
+<hr>
+<h2 style="text-align:center;color:#ffffff;font-size:35px;"><u>User Detail Form</u></h2>
+<p style="text align:left;font-size:25px;padding-left:25px;color:#ff00ff;">Hi This is a user detail form.</p>
+
+<from action="/action_page.php" autocomplete="on">
+<p style="text-indent:5%;>
+<label for="fname">First Name:</label>
+<input type="text" id="fname" name="fname">
+<p style="text-indent:5%;>
+<label for="lname">Last Name:</label>
+<input type="text" id="lname" name="lname"><br><br>
+<p style="text-indent:5%;>
+<label for="faname">Father Name:</label>
+<input type="text" id="faname">
+<p style="text-indent:5%;>
+<label for="mname">Mother Name:</lebel>
+<input type="text" id="mname"><br><br>
+<p style="text-indent:5%;>
+<label for="dob">Date Of Birth:</label>
+<input type="date" id="dob">
+<p style="text-indent:5%;>
+<label for="pnum">Phone.No:</label>
+<input type="number" id="pnum"><br><br>
+<p style="text-indent:5%;>
+<label for="mail">Email Id</label>
+<input type="text" id="mail"><br><br>
+<input type="submit">
+</form>
+<h3 letter-spacing:2px;>
+
+<h2 style="text-align:center;font-size:50px;color:#00ff00;"><u>TABLE</u></h2>
+<table>
+<tr>
+<th>Name</th>
+<th>Subject</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Bala</td>
+<td>Tamil</td>
+<td>71</td>
+</tr>
+<tr>
+<td>Bala</td>
+<td>English</td>
+<td>44</td>
+</tr>
+</table>
+<h3 letter-spacing:5px;>
+
+<table>
+
+<tr>
+<th style="color:red;width:25%";font-size:25px";>More Links:</th>
+<th style=font-size:20px;width:25%;><a href="https://www.w3schools.com/" target="_blank">Link 1:W3S</a></th>
+<th style=font-size:20px;width:25%;><a href="https://www.google.com/" target="_blank">Link 2:Google</a></th>
+<th style=font-size:20px;width:25%;><a href="https://www.techmango.net/" target="_blank">Link 3:Techmango</a></th>
+</tr>
+</table>
+
+<h5 letter-spacing: 15px;>
+<div class="clearfix">
+<div class="img">
+<img src="html file/king.jpg" style="width:100">
+<p>This Is King Symbol</p><br>
+<p>we used king symbol</p>
+</div>
+
+<div class="img">
+<img src="html file/king.jpg" style="width:100">
+<p>This Is King Symbol</p>
+</div>
+<div class="img">
+<img src="html file/king.jpg" style="width:100">
+<p>This Is King Symbol</p>
+</div>
+</div>
+<hr>
+</body>
+</html>
